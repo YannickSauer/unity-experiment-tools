@@ -2,7 +2,7 @@
 
 Collection of functions useful for VR experiments in Unity
 
-## Classes:
+## Classes
 ### Background Tracking and saving
 TODO:
 - Start background eye tracking, position and orientation tracking of camera...
