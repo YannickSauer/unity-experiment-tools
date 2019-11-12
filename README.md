@@ -4,10 +4,10 @@ Collection of functions useful for VR experiments in Unity
 
 ## Classes
 ### SaveTracking
-TODO:
-- Start background eye tracking, position and orientation tracking of camera...
-- Save tracking data (with specific rate?) without opening and closing file everytime
-- Save user specified data (messages, arrays, data tables,...?)
+- Attach script to any GameObject to start tracking.
+- Adjust settings in the inspector
+- Drag and drop a GameObject to "Tracked Gameobject" to track it's position and/or orientation. This could for example be the Camera object to track head position and orientation
+- Use SaveTracking.Msg(string msg) in any script to write a message in the tracking file
 
 ### ExperimentPreparation
 - Shuffle arrays
